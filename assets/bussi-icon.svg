@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="background" x1="120" y1="80" x2="904" y2="944" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#27B7FF"/>
+      <stop offset="0.48" stop-color="#087EF3"/>
+      <stop offset="1" stop-color="#1642C7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(250 190) rotate(43) scale(720)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72E7DB" stop-opacity="0.48"/>
+      <stop offset="0.62" stop-color="#72E7DB" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="180" y="100" width="664" height="820" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#062879" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#background)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <circle cx="868" cy="146" r="238" fill="#FFFFFF" opacity="0.055"/>
+  <circle cx="92" cy="900" r="300" fill="#071F81" opacity="0.08"/>
+  <g filter="url(#shadow)">
+    <path fill="#FFFFFF" d="M512 126c-183 0-332 144-332 322 0 226 275 431 308 455a41 41 0 0 0 48 0c33-24 308-229 308-455 0-178-149-322-332-322Z"/>
+  </g>
+  <g fill="#087EF3">
+    <path d="M350 325c0-53 43-96 96-96h132c53 0 96 43 96 96v250c0 33-27 60-60 60H410c-33 0-60-27-60-60V325Z"/>
+    <rect x="321" y="370" width="42" height="112" rx="21"/>
+    <rect x="661" y="370" width="42" height="112" rx="21"/>
+  </g>
+  <rect x="397" y="303" width="230" height="151" rx="35" fill="#FFFFFF"/>
+  <path d="M414 475h196c18 0 32 14 32 32v15H382v-15c0-18 14-32 32-32Z" fill="#FFFFFF"/>
+  <circle cx="423" cy="548" r="25" fill="#FFFFFF"/>
+  <circle cx="601" cy="548" r="25" fill="#FFFFFF"/>
+  <rect x="413" y="617" width="57" height="48" rx="22" fill="#087EF3"/>
+  <rect x="554" y="617" width="57" height="48" rx="22" fill="#087EF3"/>
+  <path d="M512 708 455 638h114l-57 70Z" fill="#087EF3"/>
+</svg>
