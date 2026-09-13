@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Official support and privacy information for Bussi, a public transport companion for Finland.">
+  <meta name="theme-color" content="#68d9e6">
+  <title>Bussi Support</title>
+  <link rel="icon" href="assets/bussi-icon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="route-lines" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Bussi Support home">
+      <img src="assets/bussi-icon.svg" alt="Bussi app icon">
+      <span>Bussi</span>
+    </a>
+    <nav aria-label="Language">
+      <button class="language active" type="button" data-language="en">EN</button>
+      <button class="language" type="button" data-language="fi">FI</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow" data-en="Bussi for iPhone" data-fi="Bussi iPhonelle">Bussi for iPhone</div>
+      <h1 data-en="Your journey, one glance away." data-fi="Matkasi yhdellä silmäyksellä.">Your journey, one glance away.</h1>
+      <p data-en="Live departures, nearby stops, widgets and vehicle tracking for public transport across Finland." data-fi="Ajantasaiset lähdöt, lähipysäkit, widgetit ja ajoneuvojen seuranta Suomen joukkoliikenteeseen.">Live departures, nearby stops, widgets and vehicle tracking for public transport across Finland.</p>
+      <div class="hero-actions">
+        <a class="primary" href="#support" data-en="Get support" data-fi="Tuki">Get support</a>
+        <a class="secondary" href="#privacy" data-en="Privacy policy" data-fi="Tietosuojaseloste">Privacy policy</a>
+      </div>
+      <div class="mode-row" aria-label="Supported transport modes">
+        <span class="mode bus">Bus</span>
+        <span class="mode metro">Metro</span>
+        <span class="mode tram">Tram</span>
+        <span class="mode rail">Rail</span>
+        <span class="mode ferry">Ferry</span>
+      </div>
+    </section>
+
+    <section class="cards" id="support">
+      <article class="card featured">
+        <div class="card-icon">?</div>
+        <div>
+          <h2 data-en="How can we help?" data-fi="Kuinka voimme auttaa?">How can we help?</h2>
+          <p data-en="If Bussi is not showing a stop, departure, widget update or live vehicle, report the issue with the stop name, route number, iOS version and a screenshot." data-fi="Jos Bussi ei näytä pysäkkiä, lähtöä, widget-päivitystä tai ajoneuvon sijaintia, ilmoita pysäkin nimi, linjanumero, iOS-versio ja liitä kuvakaappaus.">If Bussi is not showing a stop, departure, widget update or live vehicle, report the issue with the stop name, route number, iOS version and a screenshot.</p>
+          <a class="text-link" href="https://github.com/erdemtas-et/bussi-support/issues/new" data-en="Report an issue on GitHub ↗" data-fi="Ilmoita ongelmasta GitHubissa ↗">Report an issue on GitHub ↗</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon pin">⌖</div>
+        <div>
+          <h2 data-en="Location" data-fi="Sijainti">Location</h2>
+          <p data-en="Allow location access in iPhone Settings › Privacy & Security › Location Services › Bussi. Bussi uses location to find the closest stop or favorite." data-fi="Salli sijainti kohdassa iPhonen Asetukset › Tietosuoja ja suojaus › Sijaintipalvelut › Bussi. Bussi käyttää sijaintia lähimmän pysäkin tai suosikin löytämiseen.">Allow location access in iPhone Settings › Privacy & Security › Location Services › Bussi. Bussi uses location to find the closest stop or favorite.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon widget">▣</div>
+        <div>
+          <h2 data-en="Widgets" data-fi="Widgetit">Widgets</h2>
+          <p data-en="Widget refresh timing is managed by iOS. Open Bussi after changing favorites, then keep Background App Refresh and Location Services enabled for the best results." data-fi="iOS hallitsee widgettien päivitysaikataulua. Avaa Bussi suosikkien vaihtamisen jälkeen ja pidä taustapäivitys sekä sijaintipalvelut käytössä parhaan tuloksen saamiseksi.">Widget refresh timing is managed by iOS. Open Bussi after changing favorites, then keep Background App Refresh and Location Services enabled for the best results.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon live">●</div>
+        <div>
+          <h2 data-en="Live tracking" data-fi="Reaaliaikainen seuranta">Live tracking</h2>
+          <p data-en="Vehicle position is shown only when the transport operator publishes live data. The route remains visible when a vehicle position is unavailable." data-fi="Ajoneuvon sijainti näytetään vain, kun liikennöitsijä julkaisee reaaliaikaista dataa. Reitti näkyy edelleen, vaikka ajoneuvon sijaintia ei olisi saatavilla.">Vehicle position is shown only when the transport operator publishes live data. The route remains visible when a vehicle position is unavailable.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="legal" id="privacy">
+      <div class="legal-heading">
+        <span data-en="Privacy" data-fi="Tietosuoja">Privacy</span>
+        <h2 data-en="Privacy Policy" data-fi="Tietosuojaseloste">Privacy Policy</h2>
+        <p data-en="Last updated: September 13, 2026" data-fi="Päivitetty viimeksi: 13. syyskuuta 2026">Last updated: September 13, 2026</p>
+      </div>
+
+      <div class="legal-content">
+        <h3 data-en="Overview" data-fi="Yleistä">Overview</h3>
+        <p data-en="Bussi does not require an account and does not include advertising or third-party analytics. The developer does not operate a server that stores your personal information." data-fi="Bussi ei vaadi käyttäjätiliä eikä sisällä mainontaa tai kolmannen osapuolen analytiikkaa. Kehittäjä ei ylläpidä palvelinta, joka tallentaisi henkilötietojasi.">Bussi does not require an account and does not include advertising or third-party analytics. The developer does not operate a server that stores your personal information.</p>
+
+        <h3 data-en="Location data" data-fi="Sijaintitiedot">Location data</h3>
+        <p data-en="With your permission, Bussi uses your location to find nearby stops and select the closest favorite for widgets. Recent location, favorite stops and departure snapshots may be stored locally on your device and in Bussi's App Group so the app and widget can work together. Bussi does not use continuous precise background tracking." data-fi="Luvallasi Bussi käyttää sijaintiasi lähellä olevien pysäkkien löytämiseen ja widgetissä näytettävän lähimmän suosikin valintaan. Viimeisin sijainti, suosikkipysäkit ja lähtötilanne voidaan tallentaa paikallisesti laitteellesi ja Bussi-sovellusryhmään, jotta sovellus ja widget toimivat yhdessä. Bussi ei käytä jatkuvaa tarkkaa taustaseurantaa.">With your permission, Bussi uses your location to find nearby stops and select the closest favorite for widgets. Recent location, favorite stops and departure snapshots may be stored locally on your device and in Bussi's App Group so the app and widget can work together. Bussi does not use continuous precise background tracking.</p>
+
+        <h3 data-en="Transit and map services" data-fi="Joukkoliikenne- ja karttapalvelut">Transit and map services</h3>
+        <p data-en="Bussi requests stop, route, departure and vehicle information from Digitransit. When you search for nearby stops, coordinates are included in the request to Digitransit. Route maps are displayed with Apple Maps. These services may process technical information under their own privacy policies." data-fi="Bussi hakee pysäkki-, reitti-, lähtö- ja ajoneuvotietoja Digitransitista. Kun haet lähellä olevia pysäkkejä, sijaintikoordinaatit sisältyvät Digitransitille lähetettävään pyyntöön. Reittikartat näytetään Apple Mapsilla. Nämä palvelut voivat käsitellä teknisiä tietoja omien tietosuojakäytäntöjensä mukaisesti.">Bussi requests stop, route, departure and vehicle information from Digitransit. When you search for nearby stops, coordinates are included in the request to Digitransit. Route maps are displayed with Apple Maps. These services may process technical information under their own privacy policies.</p>
+
+        <h3 data-en="Your choices" data-fi="Valintasi">Your choices</h3>
+        <p data-en="You can deny or revoke location access at any time in iPhone Settings. You can remove favorites inside Bussi, and uninstalling the app removes its locally stored app data according to iOS behavior." data-fi="Voit estää tai perua sijaintiluvan milloin tahansa iPhonen asetuksissa. Voit poistaa suosikit Bussissa, ja sovelluksen poistaminen poistaa sen paikallisesti tallennetut tiedot iOS:n toimintaperiaatteiden mukaisesti.">You can deny or revoke location access at any time in iPhone Settings. You can remove favorites inside Bussi, and uninstalling the app removes its locally stored app data according to iOS behavior.</p>
+
+        <h3 data-en="Contact" data-fi="Yhteystiedot">Contact</h3>
+        <p><span data-en="For privacy or support questions, contact the developer through " data-fi="Tietosuoja- ja tukikysymyksissä ota yhteyttä kehittäjään ">For privacy or support questions, contact the developer through </span><a href="https://github.com/erdemtas-et">GitHub</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand compact"><img src="assets/bussi-icon.svg" alt=""><span>Bussi</span></div>
+    <p>© 2026 Erdem Taş</p>
+    <a href="#privacy" data-en="Privacy" data-fi="Tietosuoja">Privacy</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
