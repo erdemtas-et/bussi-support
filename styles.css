@@ -81,6 +81,17 @@ footer { position: relative; z-index: 1; display: flex; align-items: center; gap
 footer p { margin-left: auto; }
 footer a { font-weight: 650; }
 
+.privacy-page { position: relative; z-index: 1; max-width: 920px; }
+.privacy-hero { padding: 80px 0 45px; text-align: center; }
+.privacy-hero h1 { margin: 14px 0; font-size: clamp(48px, 7vw, 78px); letter-spacing: -.05em; }
+.privacy-hero p { margin: 0; color: var(--muted); font-size: 21px; }
+.privacy-document { padding: 55px 65px; border: 1px solid rgba(255,255,255,.85); border-radius: 36px; background: var(--card); box-shadow: var(--shadow); backdrop-filter: blur(26px); }
+.privacy-document .updated { margin: 0 0 42px; color: var(--muted); font-weight: 650; }
+.privacy-document h2 { margin: 38px 0 10px; font-size: 23px; letter-spacing: -.02em; }
+.privacy-document h2:first-of-type { margin-top: 0; }
+.privacy-document p { margin: 0; color: var(--muted); font-size: 17px; line-height: 1.72; }
+.privacy-document a { color: #006bd6; font-weight: 700; }
+
 @media (prefers-color-scheme: dark) {
   :root { --ink: #f4fbff; --muted: #aac1d4; --card: rgba(8, 28, 48, .72); --line: rgba(255,255,255,.1); --shadow: 0 22px 70px rgba(0,0,0,.25); }
   body { background: radial-gradient(circle at 12% 8%, #164b4a, transparent 34rem), radial-gradient(circle at 88% 22%, #123f70, transparent 40rem), linear-gradient(145deg, #071727, #08243b); }
@@ -102,4 +113,6 @@ footer a { font-weight: 650; }
   .legal-heading h2 { font-size: 38px; }
   footer { flex-wrap: wrap; }
   footer p { width: 100%; order: 3; margin: 0; }
+  .privacy-hero { padding: 55px 8px 35px; }
+  .privacy-document { padding: 34px 23px; border-radius: 27px; }
 }
